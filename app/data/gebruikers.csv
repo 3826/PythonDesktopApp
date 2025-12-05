@@ -1,0 +1,11 @@
+gebruikers_id,voornaam,achternaam,gebruikersnaam,wachtwoord,rol,email,telefoon,adres
+001,systeem,admin,admin,ww12,admin,,,
+002,p,m,pm1,pm1,people_manager,email,tel,adres
+003,p,m,pm2,pm2,people_manager,,,
+003,p,m,pm2,pm2,people_manager,-,.,n/a
+004,b,m,bm1,bm1,business_manager,email,tel,adres
+005,b,m,bm2,bm2,business_manager,,,
+005,b,m,bm2,bm2,business_manager,-,.,n/a
+007,t,rainee,trainee1,trainee1,trainee,email,tel,adres
+007,t,rainee,trainee2,trainee2,trainee,,,
+007,t,rainee,trainee3,trainee3,trainee,-,.,n/a
