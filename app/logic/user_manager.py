@@ -11,11 +11,13 @@ class UserManager:
         print("validate_user(username, password)")
         """Check credentials and return the user row if valid."""
         if not CSV_FILE.exists():
+            print("!CSV_FILE.exists()")
             return None
 
         username_input = username.strip().lower() #strip to be sure
 
         with CSV_FILE.open(newline='', encoding='utf-8') as f:
+            print("CSV_FILE.open()")
             reader = csv.DictReader(f)
             for row in reader:
                 row_username = row.get("gebruikersnaam", "").strip().lower()

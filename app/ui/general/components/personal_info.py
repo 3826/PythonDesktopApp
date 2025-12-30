@@ -1,5 +1,6 @@
+#app/ui/general/components/personal_info.py
+
 from tkinter import ttk
-from app.logic.user_manager import UserManager
 
 class PersonalInfo(ttk.Frame):
     def __init__(self, parent, user_info):

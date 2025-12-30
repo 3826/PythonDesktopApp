@@ -1,4 +1,4 @@
 {
-    "TEST_CSV": "app/data/test.csv",
+    "GEBRUIKERS_CSV": "app/data/gebruikers.csv",
     "USER_LINKS_CSV": "app/data/user_links.csv"
 }

@@ -12,5 +12,5 @@ CONFIG_PATH = BASE_DIR / "config.json"
 with CONFIG_PATH.open("r", encoding="utf-8") as f:
     config = json.load(f)
 
-TEST_CSV = BASE_DIR / config["TEST_CSV"]
+TEST_CSV = BASE_DIR / config["GEBRUIKERS_CSV"]
 USER_LINKS_CSV = BASE_DIR / config["USER_LINKS_CSV"]

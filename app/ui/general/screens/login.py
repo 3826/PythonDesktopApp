@@ -1,3 +1,5 @@
+# app/ui/general/screens/login.py
+
 from tkinter import *
 from tkinter import ttk, messagebox
 from app.logic.user_manager import UserManager
@@ -5,7 +7,7 @@ from app.logic.user_manager import UserManager
 class LoginScreen(Tk):
     def __init__(self):
         super().__init__()
-        print("LoginScreen(Tk)")
+        print("ui/general/screens/LoginScreen()")
         self.title("Login")
         self.geometry("300x180")
 
